@@ -41,18 +41,18 @@ Esse código HTML e CSS cria uma página web simples com um cabeçalho, uma seç
 
 ### 🌐 HTML
 
-No HTML, você encontrará elementos como "<header>, <nav>, <section>, <div>, <a>, <ul>, <li>", e vários outros elementos HTML para estruturar e estilizar a página.
+No HTML, você encontrará elementos como ```<header>, <nav>, <section>, <div>, <a>, <ul>, <li>```, e vários outros elementos HTML para estruturar e estilizar a página.
 
 | Tipo                | Descrição|
 |----------------------|--------------------------------|
-| "<!DOCTYPE html>:"    | Define o tipo de documento como HTML5.|
-| "<html lang="pt-BR">:"| Define o idioma do documento como português do Brasil.|
-| "<head>:"              | Contém metadados e links para folhas de estilo e scripts.|
-| "<body>:"              | Contém o conteúdo visível da página.|
-|"<span>"|Um contêiner genérico usado para agrupar conteúdo em linha em documentos HTML. |
-|"<div>"|Elemento HTML usado para criar divisões ou seções em uma página da web. |
-|"<h>"| Eles fornecem uma estrutura hierárquica de título para o conteúdo da página. |
-|"<p>"| Usado para separar blocos de texto em unidades lógicas e visuais. |
+| ```<!DOCTYPE html>:```    | Define o tipo de documento como HTML5.|
+| ```<html lang="pt-BR">:```| Define o idioma do documento como português do Brasil.|
+| ```<head>:```              | Contém metadados e links para folhas de estilo e scripts.|
+| <body>:```              | Contém o conteúdo visível da página.|
+|```<span>```|Um contêiner genérico usado para agrupar conteúdo em linha em documentos HTML. |
+|```<div>```|Elemento HTML usado para criar divisões ou seções em uma página da web. |
+|```<h>```| Eles fornecem uma estrutura hierárquica de título para o conteúdo da página. |
+|```<p>```| Usado para separar blocos de texto em unidades lógicas e visuais. |
 
 ### 🎨 CSS
 
