@@ -2,6 +2,11 @@
 
 O portfólio é uma expressão digital da jornada como desenvolvedora em formação. Com um design moderno e responsivo, destaco minhas habilidades, projetos e a paixão pela tecnologia. É uma vitrine virtual que convida os visitantes a explorarem meus trabalhos, enquanto oferece uma visão única sobre a personalidade e o compromisso com o aprendizado contínuo.
 
+<html> 
+  <img src="https://github.com/IsaMocellin/portifolio-simplificado/assets/131546311/22847d9e-28ec-46db-a693-e4c59e85acb5" width="600">
+</html>
+
+
 ## 👩‍💻 Linguagens Utilizadas
 O portfólio foi desenvolvido utilizando HTML para estruturação do conteúdo, CSS para estilização e JavaScript para interatividade e funcionalidades dinâmicas.
 
