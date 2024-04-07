@@ -273,21 +273,21 @@ body {
     background-color: #000;
 }
 
-.projetos .btn-mostrar-projetos {
-    background: none;
-    border: 1px solid #fff;
-    border-radius: 15px;
-    color: #fff;
-    width: 180px;
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    /* tornar o cursor para a mãozinha */
+.projetos .btn-mostrar-projetos, .projetos .btn-ocultar-projetos {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	color: #fff;
+	width: 180px;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+/* tornar cursor mãozinha */
 }
 
 .projetos .btn-mostrar-projetos:hover {
@@ -295,9 +295,11 @@ body {
     transition: 0.3s;
 }
 
-.projetos .btn-mostrar-projetos.remover {
+.btn-mostrar-projetos.remover,
+.btn-ocultar-projetos.remover {
     display: none;
 }
+
 
 @keyframes gradient-animation {
     0% {
