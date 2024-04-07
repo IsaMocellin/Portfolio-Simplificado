@@ -29,7 +29,7 @@ botaoMostrarProjetos.addEventListener('click', () => {
 
 function situacaoBotao() {
     const projetosVisiveis = document.querySelectorAll('.projeto.ativo');
-    
+
     if (projetosVisiveis.length > 0) {
         // Se há projetos visíveis, exibir o botão "Mostrar Menos" e ocultar o botão "Mostrar Mais"
         botaoOcultarProjetos.style.display = 'inline-block';
@@ -41,9 +41,6 @@ function situacaoBotao() {
     }
 }
 
-
-
-
 function esconderBotao() {
     botaoMostrarProjetos.classList.add("remover");
     botaoOcultarProjetos.classList.remove("remover");
@@ -54,7 +51,6 @@ function mostrarMaisProjetos() {
         projetoInativo.classList.add('ativo');
     });
 }
-
 
 botaoOcultarProjetos.addEventListener('click', () => {
     ocultarProjetos();
@@ -76,13 +72,13 @@ function ocultarProjetos() {
 //Titúlo
 
 //Descrição
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var divsInformacoes = document.querySelectorAll('.informacoes-pessoais > div:nth-child(2) p:nth-child(1)');
-    divsInformacoes.forEach(function(div) {
+    divsInformacoes.forEach(function (div) {
         var texto = div.innerText;
         div.innerHTML = ''; // Limpa o conteúdo original para substituir pelo texto digitado
         var i = 0;
-        
+
         function adicionarCaractereComAtraso() {
             if (i < texto.length) {
                 // Adicionar um espaço extra após cada vírgula
@@ -99,19 +95,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 i++;
             }
         }
-        
+
         // Adicionar atraso antes de começar a gerar o texto
         setTimeout(adicionarCaractereComAtraso, 1700); // Atraso de 1000 milissegundos (1 segundo)
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var divsInformacoes = document.querySelectorAll('.informacoes-pessoais > div:nth-child(2) p:nth-child(2)');
-    divsInformacoes.forEach(function(div) {
+    divsInformacoes.forEach(function (div) {
         var texto = div.innerText;
         div.innerHTML = ''; // Limpa o conteúdo original para substituir pelo texto digitado
         var i = 0;
-        
+
         function adicionarCaractereComAtraso() {
             if (i < texto.length) {
                 // Adicionar um espaço extra após cada vírgula
@@ -128,19 +124,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 i++;
             }
         }
-        
+
         // Adicionar atraso antes de começar a gerar o texto
         setTimeout(adicionarCaractereComAtraso, 1900); // Atraso de 1000 milissegundos (1 segundo)
     });
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var divsInformacoes = document.querySelectorAll('.informacoes-pessoais > div:nth-child(2) p:nth-child(3)');
-    divsInformacoes.forEach(function(div) {
+    divsInformacoes.forEach(function (div) {
         var texto = div.innerText;
         div.innerHTML = ''; // Limpa o conteúdo original para substituir pelo texto digitado
         var i = 0;
-        
+
         function adicionarCaractereComAtraso() {
             if (i < texto.length) {
                 // Adicionar um espaço extra após cada vírgula
@@ -157,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 i++;
             }
         }
-        
+
         // Adicionar atraso antes de começar a gerar o texto
         setTimeout(adicionarCaractereComAtraso, 4400); // Atraso de 1000 milissegundos (1 segundo)
     });
@@ -165,13 +161,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //Linguagens
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var divsInformacoes = document.querySelectorAll('.informacoes-pessoais > div:nth-child(3) > p4');
-    divsInformacoes.forEach(function(div) {
+    divsInformacoes.forEach(function (div) {
         var texto = div.textContent; // Usar textContent em vez de innerText
         div.innerHTML = ''; // Limpar o conteúdo original para substituir pelo texto digitado
         var i = 0;
-        
+
         function adicionarCaractere() {
             if (i < texto.length) {
                 div.textContent += texto.charAt(i);
@@ -189,10 +185,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //Programas
-document.addEventListener('DOMContentLoaded', function() {
-    setTimeout(function() {
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(function () {
         var divsInformacoes = document.querySelectorAll('.informacoes-pessoais > div:nth-child(4) > p4');
-        divsInformacoes.forEach(function(div) {
+        divsInformacoes.forEach(function (div) {
             var texto = div.innerText;
             div.innerHTML = ''; // Limpa o conteúdo original para substituir pelo texto digitado
             var i = 0;
@@ -219,16 +215,15 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 });
 
-
 //Habilidades
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var divsInformacoes = document.querySelectorAll('.informacoes-pessoais > div:nth-child(5) > p4');
-    divsInformacoes.forEach(function(div) {
+    divsInformacoes.forEach(function (div) {
         var texto = div.innerText;
         div.innerHTML = ''; // Limpa o conteúdo original para substituir pelo texto digitado
         var i = 0;
-        
+
         function adicionarCaractereComAtraso() {
             if (i < texto.length) {
                 // Adicionar um espaço extra após cada vírgula
@@ -252,14 +247,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //Titulos dos tópicos de informações
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var divsInformacoes = document.querySelectorAll('.informacoes-pessoais > div h4');
-    
-    divsInformacoes.forEach(function(div) {
+
+    divsInformacoes.forEach(function (div) {
         var texto = div.innerText;
         div.innerText = ''; // Limpa o conteúdo original para substituir pelo texto digitado
         var i = 0;
-        setTimeout(function() {
+        setTimeout(function () {
             digitarTexto(div, texto, i);
         }, 2100); // Atraso de 1600 milissegundos (1.6 segundos)
     });
@@ -273,7 +268,7 @@ function digitarTexto(elemento, texto, indice) {
         } else {
             elemento.innerText += texto.charAt(indice);
         }
-        setTimeout(function() {
+        setTimeout(function () {
             digitarTexto(elemento, texto, indice + 1);
         }, 30); // Tempo entre cada caractere adicionado (em milissegundos)
     }
