@@ -263,4 +263,4 @@ function digitarTexto(elemento, texto, indice) {
             digitarTexto(elemento, texto, indice + 1);
         }, 30); // Tempo entre cada caractere adicionado (em milissegundos)
     }
-}
+};
