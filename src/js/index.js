@@ -33,34 +33,7 @@ function mostrarMaisProjetos() {
 
 //Animação do Texto:
 //Titúlo
-document.addEventListener('DOMContentLoaded', function() {
-    var divsInformacoes = document.querySelectorAll('.informacoes-pessoais > div:nth-child(1) h1');
-    divsInformacoes.forEach(function(div) {
-        var texto = div.innerText;
-        div.innerHTML = ''; // Limpa o conteúdo original para substituir pelo texto digitado
-        var i = 0;
-        
-        function adicionarCaractereComAtraso() {
-            if (i < texto.length) {
-                // Adicionar um espaço extra após cada vírgula
-                if (texto.charAt(i) === ',' && texto.charAt(i + 1) !== ' ') {
-                    div.innerHTML += ', ';
-                } else if (texto.charAt(i) === '\n') {
-                    div.innerHTML += '<br>';
-                } else {
-                    // Adicionar o caractere atual
-                    div.innerHTML += texto.charAt(i);
-                    // Chamar a próxima iteração após um atraso
-                    setTimeout(adicionarCaractereComAtraso, 40); // Tempo entre cada caractere adicionado (em milissegundos)
-                }
-                i++;
-            }
-        }
-        
-        // Adicionar atraso antes de começar a gerar o texto
-        setTimeout(adicionarCaractereComAtraso, 500); // Atraso de 1000 milissegundos (1 segundo)
-    });
-});
+
 //Descrição
 document.addEventListener('DOMContentLoaded', function() {
     var divsInformacoes = document.querySelectorAll('.informacoes-pessoais > div:nth-child(2) p:nth-child(1)');
@@ -80,14 +53,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Adicionar o caractere atual
                     div.innerHTML += texto.charAt(i);
                     // Chamar a próxima iteração após um atraso
-                    setTimeout(adicionarCaractereComAtraso, 20); // Tempo entre cada caractere adicionado (em milissegundos)
+                    setTimeout(adicionarCaractereComAtraso, 5); // Tempo entre cada caractere adicionado (em milissegundos)
                 }
                 i++;
             }
         }
         
         // Adicionar atraso antes de começar a gerar o texto
-        setTimeout(adicionarCaractereComAtraso, 1000); // Atraso de 1000 milissegundos (1 segundo)
+        setTimeout(adicionarCaractereComAtraso, 1700); // Atraso de 1000 milissegundos (1 segundo)
     });
 });
 
@@ -109,14 +82,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Adicionar o caractere atual
                     div.innerHTML += texto.charAt(i);
                     // Chamar a próxima iteração após um atraso
-                    setTimeout(adicionarCaractereComAtraso, 10); // Tempo entre cada caractere adicionado (em milissegundos)
+                    setTimeout(adicionarCaractereComAtraso, .5); // Tempo entre cada caractere adicionado (em milissegundos)
                 }
                 i++;
             }
         }
         
         // Adicionar atraso antes de começar a gerar o texto
-        setTimeout(adicionarCaractereComAtraso, 1000); // Atraso de 1000 milissegundos (1 segundo)
+        setTimeout(adicionarCaractereComAtraso, 1900); // Atraso de 1000 milissegundos (1 segundo)
     });
 });
 
@@ -145,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Adicionar atraso antes de começar a gerar o texto
-        setTimeout(adicionarCaractereComAtraso, 1600); // Atraso de 1000 milissegundos (1 segundo)
+        setTimeout(adicionarCaractereComAtraso, 3700); // Atraso de 1000 milissegundos (1 segundo)
     });
 });
 
@@ -170,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         // Adicionar atraso antes de começar a gerar o texto
-        setTimeout(adicionarCaractere, 1200); // Atraso de 600 milissegundos (0,6 segundo)
+        setTimeout(adicionarCaractere, 2000); // Atraso de 600 milissegundos (0,6 segundo)
     });
 });
 
@@ -200,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
             // Adicionar atraso antes de começar a gerar o texto
-            setTimeout(adicionarCaractereComAtraso, 1600);
+            setTimeout(adicionarCaractereComAtraso, 2000);
         });
     })
 });
@@ -232,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         // Adicionar atraso antes de começar a gerar o texto
-        setTimeout(adicionarCaractereComAtraso, 1600); // Atraso de 1000 milissegundos (1 segundo)
+        setTimeout(adicionarCaractereComAtraso, 2000); // Atraso de 1000 milissegundos (1 segundo)
     });
 });
 
@@ -247,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var i = 0;
         setTimeout(function() {
             digitarTexto(div, texto, i);
-        }, 1600); // Atraso de 1600 milissegundos (1.6 segundos)
+        }, 2100); // Atraso de 1600 milissegundos (1.6 segundos)
     });
 });
 
