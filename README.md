@@ -48,7 +48,7 @@ No HTML, você encontrará elementos como ```<header>, <nav>, <section>, <div>, 
 | ```<!DOCTYPE html>:```    | Define o tipo de documento como HTML5.|
 | ```<html lang="pt-BR">:```| Define o idioma do documento como português do Brasil.|
 | ```<head>:```              | Contém metadados e links para folhas de estilo e scripts.|
-| <body>:```              | Contém o conteúdo visível da página.|
+|```<body>:```              | Contém o conteúdo visível da página.|
 |```<span>```|Um contêiner genérico usado para agrupar conteúdo em linha em documentos HTML. |
 |```<div>```|Elemento HTML usado para criar divisões ou seções em uma página da web. |
 |```<h>```| Eles fornecem uma estrutura hierárquica de título para o conteúdo da página. |
@@ -114,18 +114,18 @@ This HTML and CSS code creates a simple web page with a header, an initial secti
 
 ### 🌐 HTML
 
-In HTML, you'll find elements like "<header>, <nav>, <section>, <div>, <a>, <ul>, <li>", and various other HTML elements to structure and style the page.
+In HTML, you'll find elements like ```<header>, <nav>, <section>, <div>, <a>, <ul>, <li>```, and various other HTML elements to structure and style the page.
 
 | Type                | Description|
 |----------------------|--------------------------------|
-| "<!DOCTYPE html>:"     | Defines the document type as HTML5.|
-| "<html lang="pt-BR">:"| Defines the document language as Brazilian Portuguese.|
-| "<head>:"              | Contains metadata and links to stylesheets and scripts.|
-| "<body>:"              | Contains the visible content of the page.|
-|"<span>"|A generic container used to group inline content in HTML documents. |
-|"<div>"|HTML element used to create divisions or sections on a web page. |
-|"<h>"| Provides a hierarchical title structure for page content. |
-|"<p>"| Used to separate blocks of text into logical and visual units. |
+| ```<!DOCTYPE html>:```     | Defines the document type as HTML5.|
+| ```<html lang="pt-BR">:```| Defines the document language as Brazilian Portuguese.|
+| ```<head>:```              | Contains metadata and links to stylesheets and scripts.|
+| ```<body>:```              | Contains the visible content of the page.|
+|```<span>```|A generic container used to group inline content in HTML documents. |
+|```<div>```|HTML element used to create divisions or sections on a web page. |
+|```<h>```| Provides a hierarchical title structure for page content. |
+|```<p>```| Used to separate blocks of text into logical and visual units. |
 
 ### 🎨 CSS
 
