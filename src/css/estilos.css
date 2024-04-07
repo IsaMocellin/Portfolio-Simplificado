@@ -68,6 +68,7 @@ body {
 }
 
 .home .informacoes {
+    color: transparent;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -75,12 +76,77 @@ body {
     padding: 0 15px;
     max-width: 50%;
     /* medida relativa da largura do navegador da pessoa, responsividade */
+    animation: written_text .5s ease forwards;
 }
 
-.home .informacoes h1 {
+
+.home .informacoes div h1 {
+    color: transparent;
     font-family: "Raleway", sans-serif;
     font-size: 45px;
     margin-bottom: 20px;
+
+    position: relative;
+    width: fit-content;
+
+    animation: written_text 0.5s ease forwards;
+}
+
+.informacoes-pessoais div h1:nth-child(1){
+    animation-delay: .5s;
+}
+.informacoes-pessoais div h1:nth-child(2){
+    animation: written_text_name .5s ease forwards;
+    animation-delay: 1s;
+}
+
+.informacoes-pessoais div h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 0px;
+    height: 100%;
+    background-color: #e66465;
+
+    animation: written_text_box 1s ease;
+    animation-delay: .5s;
+}
+
+.informacoes-pessoais div h1:nth-child(1) span{
+    animation-delay: .25s;
+}
+.informacoes-pessoais div h1:nth-child(2) span{
+    animation-delay: .5s;
+}
+
+.informacoes-pessoais div:nth-child(2){
+    color: transparent;
+    animation: written_text .5s ease forwards;
+}
+
+.informacoes-pessoais div:nth-child(2) span{
+    color: transparent;
+    animation: written_text_name .5s ease forwards;
+}
+
+@keyframes written_text {
+    100%{
+        color: white;
+    }
+}
+
+@keyframes written_text_name {
+    100%{
+        color: white;
+    }
+}
+
+@keyframes written_text_box {
+    50%{
+        width: 100%;
+        left: 0;
+    }
 }
 
 .home .redes-sociais {
@@ -96,7 +162,7 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 26px;
-    transition: 0.3s;
+    transition: 0.3s;;
 }
 
 /* Para fotos quadradas: */
