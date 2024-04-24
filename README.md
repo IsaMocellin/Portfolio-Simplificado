@@ -1,4 +1,4 @@
-# 💼 Portifólio simplificado.
+# 💼 Portfólio simplificado.
 
 O portfólio é uma expressão digital da jornada como desenvolvedora em formação. Com um design moderno e responsivo, destaco minhas habilidades, projetos e a paixão pela tecnologia. É uma vitrine virtual que convida os visitantes a explorarem meus trabalhos, enquanto oferece uma visão única sobre a personalidade e o compromisso com o aprendizado contínuo.
 
